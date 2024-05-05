@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.job-card {
+  width: 300px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .job-card {
+    width: 100%;
+  }
+}
+
+.filter-head{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: transparent;
+    padding: 0 20px 20px;
+    background-color: #fff !important;
+}
